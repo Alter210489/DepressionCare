@@ -1,6 +1,6 @@
 import React, { useState, useMemo } from 'react';
 import { Head, useForm } from '@inertiajs/react';
-import GuestLayout from '@/Layouts/GuestLayout';
+import GuestLayout from '@/layouts/GuestLayout';
 
 export default function GuestKonsultasi({ gejalaByKategori, kategoriOptions, fakultasList, totalGejala }) {
     const { data, setData, post, processing, errors } = useForm({
