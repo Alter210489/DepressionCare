@@ -1,6 +1,6 @@
 import React from 'react';
 import { Head, Link } from '@inertiajs/react';
-import GuestLayout from '@/Layouts/GuestLayout';
+import GuestLayout from '@/layouts/GuestLayout';
 import { HeartIcon, PhoneIcon } from '@heroicons/react/24/outline';
 
 // ============================================================================
